@@ -7,5 +7,6 @@ my favourite regexes
 
 json -> go struct
 
-find:     "(.*?)":\s.*?,
-replace:  $1 string `json:"$1"`
+find:     `"(.*?)":\s.*?,`
+
+replace:  `$1 string `json:"$1"``
