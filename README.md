@@ -9,4 +9,4 @@ json -> go struct
 
 find:     `"(.*?)":\s.*?,`
 
-replace:  ``$1 string `json:"$1"``
+replace:  ```$1 string `json:"$1"``
